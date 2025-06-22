@@ -1,8 +1,8 @@
-# Local ovice MCP Test
+# ovice MCP Server
 
 ## このリポジトリについて
 
-ローカル環境でMCPサーバーを構築する個人的な検証のためのリポジトリです（動作保証いたしかねます）
+ローカル環境でMCPサーバーを構築する個人的な検証のための非公式なリポジトリです（動作保証いたしかねます）
 
 ovice API と連携し、ワークスペース、グループ、ユーザー管理や通知機能を提供するMCPサーバーです。
 
@@ -27,9 +27,9 @@ ovice API と連携し、ワークスペース、グループ、ユーザー管�
 ```json
 {
   "mcpServers": {
-    "local-ovice-mcp-test": {
+    "ovice-mcp-server": {
       "command": "npx",
-      "args": ["github:cti1650/local-ovice-mcp-test"],
+      "args": ["github:cti1650/ovice-mcp-server"],
       "env": {
         "OVICE_DOMAIN": "api.ovice.com",
         "OVICE_CLIENT_ID": "your-client-id",

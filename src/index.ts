@@ -8,7 +8,7 @@ import { registerNotificationTools } from './tools/notification.js';
 
 // MCPサーバーの初期化
 const server = new McpServer({
-  name: "local-ovice-mcp-test",
+  name: "ovice-mcp-server",
   version: "0.1.0",
 });
 
