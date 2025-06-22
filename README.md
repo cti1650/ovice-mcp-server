@@ -126,7 +126,7 @@ ovice API と連携し、ワークスペース、グループ、ユーザー管�
 
 ## API仕様
 
-このMCPサーバーは oVice Public API v1 を使用します：
+このMCPサーバーは [oVice Public API v1](https://help.ovice.com/hc/ja/articles/27613800985753-%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AFAPI) を使用します：
 - **エンドポイント**: `https://{OVICE_DOMAIN}/api/public/v1/`
 - **認証**: クライアントIDとクライアントシークレットによるヘッダー認証
 
